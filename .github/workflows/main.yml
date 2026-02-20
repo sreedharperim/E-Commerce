@@ -44,6 +44,7 @@ jobs:
         working-directory: ./frontend
         env:
           REACT_APP_API: ${{ secrets.REACT_APP_API }}
+          CI: false
         run: |
           echo "React API : ${{ secrets.REACT_APP_API }}"
           echo "Node: $(node -v) | Npm: $(npm -v)"
