@@ -1,0 +1,21 @@
+.order-details-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.order-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.order-item span {
+  font-weight: bold;
+}
+

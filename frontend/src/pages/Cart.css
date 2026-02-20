@@ -1,0 +1,22 @@
+.cart-container {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.clear-cart {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
