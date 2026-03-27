@@ -5,7 +5,7 @@ import db from "../config/db.js";
 import authMiddleware from "../middleware/authMiddleware.js";
 
 const router = express.Router();
-
+//Test for Pull Request
 // Register Route
 router.post("/register", async (req, res) => {
   const { name, email, password } = req.body;
